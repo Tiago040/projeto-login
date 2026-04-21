@@ -21,6 +21,26 @@
         width: 70%;
     }
 
+    div#formulario > h1 {
+        font-size: 1.8em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    div.campo > input[type=email] {
+        width: 35%;
+    }
+
+    div.campo > input[type=password] {
+        width: 35%;
+    }
+
+    form > input[type=submit] {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
