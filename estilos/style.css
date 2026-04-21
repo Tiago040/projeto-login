@@ -28,8 +28,8 @@ main {
 section#login {
     position: absolute;
     background-color: #3B3936;
-    width: 280px;
-    height: 550px;
+    width: 290px;
+    height: 570px;
     border-radius: 25px;
     top: 50%;
     left: 50%;
@@ -62,6 +62,36 @@ div#formulario > p {
     color: rgba(255, 255, 255, 0.807);
     padding-top: 8px;
     font-size: 1em;
+}
+
+form > div.campo {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #4c1203c9;
+    border: 2px solid #390D02;
+    border-radius: 8px;
+    margin: 12px 0px;   
+}
+
+div.campo > input {
+    width: calc(100% - 45px);
+    height: 99%;
+    background-color: #fa561b87;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+    transform: translate(3px, -11px);
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    padding: 3px;
 }
 
 /* form > div.campo {
@@ -126,7 +156,7 @@ form > a.botao {
     background-color: rgba(255, 255, 255, 0.911);
     text-decoration: none;
     color: black;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 form > a.botao:hover {
